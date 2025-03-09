@@ -34,7 +34,7 @@ Python 3.8+, Pytorch 1.9.0, Cuda 11.1, , opencv-python
 - model training:
 
     `bash ./tools/dist_train.sh config_file K (GPU number)`
-- 
+  
 - model evaluation:
 
     `python tools/test.py config_file checkpoints_file --eval mIoU`
