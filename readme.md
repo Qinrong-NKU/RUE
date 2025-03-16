@@ -1,12 +1,5 @@
 <h1 align="center"> Boosting the Dual-Stream Architecture in Ultra-High Resolution Segmentation with Resolution-Biased Uncertainty Estimation </h1>
 
-<p align="center">
-  <a href="https://qinrong-nku.github.io/">Rong Qin</a>,
-  Xingyu Liu,
-  <a href="https://jingleishi.github.io/">Jinglei Shi</a>,
-  Liang Lin,
-  <a href="https://cv.nankai.edu.cn/">Jufeng Yang</a>,
-</p>
 
 <p align="center"> CVPR 2025 </p>
 
@@ -20,12 +13,10 @@ Over the last decade, significant efforts have been dedicated to designing effic
 <p align="center">
   <img width="95%" src="./Figure/figure2_v8.png">
 </p>
-The red regions are the incorrectly predicted ones. 
-We first down-sample the UHR image and input it into the low-resolution stream to extract context features and coarse predictions. The context features and coarse predictions are used to compute the resolution bias and entropy map, respectively, which are ultimately combined as the resolution-biased uncertainty estimation. The resolution-biased uncertainty estimation is utilized to boost the UHR stream at multiple aspects through an uncertainty-aware selector, ensembler, and an uncertainty-based complementer.
 
 ## 1. Requirements
 
-Python 3.8+, Pytorch 1.9.0, Cuda 11.1, , opencv-python
+pytorch==1.6.0, torchvision==0.7.0
 
 
 
