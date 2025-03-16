@@ -16,7 +16,7 @@ Over the last decade, significant efforts have been dedicated to designing effic
 
 ## 1. Requirements
 
-pytorch==1.6.0, torchvision==0.7.0
+pytorch==1.6.0, torchvision==0.7.0,mmseg==0.16.0
 
 
 
