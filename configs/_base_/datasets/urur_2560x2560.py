@@ -2,7 +2,7 @@
 dataset_type = 'ururdataset'
 data_root = '/home/xx/urur'
 img_norm_cfg = dict(
-    mean=[89.501, 99.541, 73.662], std=[18.585, 12.324, 18.485], to_rgb=True)
+    mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 crop_size = (2560, 2560)
 #crop_size = (980, 980)
 train_pipeline = [
@@ -46,8 +46,8 @@ data = dict(
     val=dict(
         type=dataset_type,
         data_root=data_root,
-        img_dir='imgs/test',
-        ann_dir='labels/test',
+        img_dir='imgs/val',
+        ann_dir='labels/val',
         pipeline=test_pipeline),
     test=dict(
         type=dataset_type,
