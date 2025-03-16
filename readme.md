@@ -35,4 +35,16 @@ pytorch==1.6.0, torchvision==0.7.0,mmseg==0.16.0
      
     browse `config` folder
 
+  # Acknowledgement
+This code is borrowed from [[ISDNet](https://github.com/cedricgsh/ISDNet)] If you use the part of code, you should cite both our work and ISDNet:
+```bibtex
+@inproceedings{guo2022isdnet,
+  title={ISDNet: Integrating Shallow and Deep Networks for Efficient Ultra-High Resolution Segmentation},
+  author={Guo, Shaohua and Liu, Liang and Gan, Zhenye and Wang, Yabiao and Zhang, Wuhao and Wang, Chengjie and Jiang, Guannan and Zhang, Wei and Yi, Ran and Ma, Lizhuang and others},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={4361--4370},
+  year={2022}
+}
+```  
+
     
